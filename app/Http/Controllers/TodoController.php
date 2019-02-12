@@ -43,14 +43,30 @@ class TodoController extends Controller
 
     }
 
-    // list
+   // list
     public function list()
     {
       // find all
-      $todos = Todo::all();
-
+      $todo = Todo::where('archived',false)->get();
       //return all
-      return $todos;
-
+      return $todo;
+    }
+    // list
+    public function listArchived()
+    {
+      // find all
+      $todo = Todo::where('archived',true)->get();
+      //return all
+      return $todo;
+    }
+    // Edit
+    public function archive($id)
+    {
+      // find item
+      $todo = Todo::findOrFail($id);
+      // edit with new request
+      $todo->update(['archived' => true]);
+      // return item
+      return $todo;
     }
 }
