@@ -8,8 +8,13 @@ class Todo extends Model
 {
     // setup default values
   protected $attributes = [
-    'title'     => 'todo item',
-    'content'   => '',
+    //'title'     => 'todo item',
+    //'content'   => '',
     'archived'  => false,
+  ];
+
+  protected $fillable = [
+    'title',
+    'content',
   ];
 }
