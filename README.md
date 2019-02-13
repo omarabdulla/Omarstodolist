@@ -1,4 +1,4 @@
-### Note taking API
+# Note taking API
 
 This is a basic note-taking API which supports CRUD (create, read, update and delete) operations as well as an archive operation via RESTful API for manipulating note objects.
 
@@ -6,7 +6,7 @@ This example is implemented using PHP, the Laravel framework and a MySQL databas
 
 ## Setup
 
-#Prerequisites
+###Prerequisites
 In order to install Laravel, Laravel Homestead virtual machine should be installed, alternatively the following requirements could be used (details on this are found in detail at: https://laravel.com/docs/5.7):
 
 PHP --> 7.1.3
@@ -19,7 +19,7 @@ Ctype PHP Extension
 JSON PHP Extension
 BCMath PHP Extension
 
-#Installing Laravel
+###Installing Laravel
 
 Laravel can be instead using Composer, download the Laravel installer using:
 
@@ -97,27 +97,27 @@ http://localhost:8000/api/archived
 Routes have been created for each of the POST, PUT, Delete and Get functions and then PUT and GET function routes were also created for archived notes
 ## Troubleshooting
 
-# Common Errors
+### Common Errors
 A list of common errors that could come up and a description of the error can be found at:
 https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
 
-# Checking if Laravel is running
+### Checking if Laravel is running
 
 To check if Laravel is running, run the command:
 ```
 php artisan serve
 
 ```
-# Other possible sources of error
+### Other possible sources of error
 
 Make sure two commands don't have the same name (which could be a slight issue with having an archive function), i.e. there should be one version for each functions. The same applies for route addresses.
 
 ## Technology
 
-# Choice of Technology
+### Choice of Technology
 Laravel is one of the neatest frameworks to use to create REST APIs.
 It has a great deal of simplicity and flexibility when used as well as clean and simple routing. The routes are automatically loaded by the framework, where the most basic Laravel routes simply accept a URI and a Closure, providing a very simple and expressive method of defining routes. The in-built tool "Artisan" performs repetitive and complex programming tasks as well as handles the database. To summarise, Laravel has a framework which makes it easy to solve common tasks quickly, with the aim to focus faster on the creative/application tasks.
-# Technology Alternatives
+### Technology Alternatives
 
 ## What would i do if i had more time:
 1) Research to see if it is possible to have a de-archive function
