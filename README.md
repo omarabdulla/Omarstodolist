@@ -52,7 +52,7 @@ php artisan serve
 
 ### database
 
-A brief descri
+A brief description
 
 | ITEM      | TYPE     | DESCRIPTION |
 | --------- | -------- | ----------- |
@@ -231,16 +231,14 @@ It has a great deal of simplicity and flexibility when used as well as clean and
 > investigate node.js and python django
 
 ## What would i do if i had more time:
-1. Research to see if it is possible to have a de-archive function
-2. Implement a mail function to share notes via a local or cloud-based service
-3. A function could also be added to send notifications related to the creation or the maintaining of notes for group-related projects using SMS and/or slack
-4. A function to lock notes could also be added in order  to confidential notes
-5. The code could be made more flexible for use in other programming languages
-6. A PATCH function could also be added if the user only wants to update specific fields while leaving the others alone as opposed to PUT which requests the identity as a whole, as this API only has 2 fields, a PUT function was implemented
+1. Implement a mail function to share notes via a local or cloud-based service
+2. A function could also be added to send notifications related to the creation or the maintaining of notes for group-related projects using SMS and/or slack
+3. A function to lock notes could also be added in order to protect confidential notes
+4. The code could be made more flexible for use in other programming languages
 ## Built with
 This was built on Laravel, using Atom to edit the code and Postman to test the note taking functions of the code
 ## Author
 Omar Abdulla
 ## Acknowledgments
-Clear instructions on how to build the code from thirdfort
-Github for examples of API code to use for inspiration
+1. Clear instructions on how to build the code from thirdfort
+2. Github for examples of API code to use for inspiration
