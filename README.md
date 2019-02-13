@@ -6,20 +6,20 @@ This example is implemented using PHP, the Laravel framework and a MySQL databas
 
 ## Setup
 
-###Prerequisites
+### Prerequisites
 In order to install Laravel, Laravel Homestead virtual machine should be installed, alternatively the following requirements could be used (details on this are found in detail at: https://laravel.com/docs/5.7):
 
-PHP --> 7.1.3
-OpenSSL PHP Extension
-PDO PHP Extension
-Mbstring PHP Extension
-Tokenizer PHP Extension
-XML PHP Extension
-Ctype PHP Extension
-JSON PHP Extension
-BCMath PHP Extension
+1)PHP --> 7.1.3
+2)OpenSSL PHP Extension
+3)PDO PHP Extension
+4)Mbstring PHP Extension
+5)Tokenizer PHP Extension
+6)XML PHP Extension
+7)Ctype PHP Extension
+8)JSON PHP Extension
+9)BCMath PHP Extension
 
-###Installing Laravel
+### Installing Laravel
 
 Laravel can be instead using Composer, download the Laravel installer using:
 
@@ -54,7 +54,7 @@ POST is used to create an "id", in this case a NOTE ENTRY that can then be retri
 NOTE: each note entry has two fields: title and content that can be filled in and then edited using PUT (below)
 
 ```
-PUT: localhost/api/ ,
+PUT: localhost/api/{id} ,
 {
   "title" : "item title",
   "content": "item content"
@@ -116,7 +116,7 @@ Make sure two commands don't have the same name (which could be a slight issue w
 
 ### Choice of Technology
 Laravel is one of the neatest frameworks to use to create REST APIs.
-It has a great deal of simplicity and flexibility when used as well as clean and simple routing. The routes are automatically loaded by the framework, where the most basic Laravel routes simply accept a URI and a Closure, providing a very simple and expressive method of defining routes. The in-built tool "Artisan" performs repetitive and complex programming tasks as well as handles the database. To summarise, Laravel has a framework which makes it easy to solve common tasks quickly, with the aim to focus faster on the creative/application tasks.
+It has a great deal of simplicity and flexibility when used as well as clean and simple routing that produces lean code. The routes are automatically loaded by the framework, where the most basic Laravel routes simply accept a URI and a Closure, providing a very simple and expressive method of defining routes. The in-built tool "Artisan" performs repetitive and complex programming tasks as well as handles the database. To summarise, Laravel has a framework which makes it easy to solve common tasks quickly, with the aim to focus faster on the creative/application tasks.
 ### Technology Alternatives
 
 ## What would i do if i had more time:
