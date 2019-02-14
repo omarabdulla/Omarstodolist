@@ -243,5 +243,4 @@ This was built on Laravel, using Atom to edit the code and Postman to test the n
 ## Author
 Omar Abdulla
 ## Acknowledgments
-1. Clear instructions on how to build the code from thirdfort
-2. Github for examples of API code to use for inspiration
+1. Github users for examples of API code to use for guidance and inspiration
