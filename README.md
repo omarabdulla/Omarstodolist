@@ -231,10 +231,11 @@ It has a great deal of simplicity and flexibility when used as well as clean and
 > investigate node.js and python django
 
 ## What would i do if i had more time:
-1. Implement a mail function to share notes via a local or cloud-based service
-2. A function could also be added to send notifications related to the creation or the maintaining of notes for group-related projects using SMS and/or slack
-3. A function to lock notes could also be added in order to protect confidential notes
-4. The code could be made more flexible for use in other programming languages
+1. Implement a function to back-up all the notes on to the internet/cloud as a back up
+2. Implement a mail function to share notes via a local or cloud-based service as well as the option to send attachments with the notes, audio files included 
+3. A function could also be added to send notifications related to the creation or the maintaining of notes for group-related projects using SMS and/or slack
+4. A function to lock notes could also be added in order to protect confidential notes
+5. The code could be made more flexible for use in other programming languages
 ## Built with
 This was built on Laravel, using Atom to edit the code and Postman to test the note taking functions of the code
 ## Author
