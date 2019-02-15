@@ -113,7 +113,7 @@ returns,
 }
 
 ```
-In this context, PUT can be used to edit a note entry that was created using POST
+In this context, PUT can be used to edit a note entry that was created using POST. 
 To change an entry, enter the key you want to change i.e. title or content and then type in what you it to display in the value field
 
 ```
@@ -140,7 +140,7 @@ returns,
 
 
 ```
-GET is used is used in this context to display the note entries that have been made
+GET is used is used in this context to display all the note entries that have been made (except archived and deleted ones)
 
 
 ```
