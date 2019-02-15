@@ -231,7 +231,7 @@ It has a great deal of simplicity and flexibility when used as well as clean and
 > investigate node.js and python django
 
 ## What would i do if i had more time:
-1. Implement a function to back-up all the notes on to the internet/cloud as a back up
+1. Implement a function to back-up all the notes on to the internet/cloud
 2. Implement a mail function to share notes as well as the option to send attachments with the notes, audio files included 
 3. Being able to categorise the notes made would be very useful. This way, the notes can be matched with the different stages the team goes through, from the customer research stage to the selling the design solution to a business stage
 3. A function could also be added to send notifications related to the creation or the maintaining of notes for group-related projects using SMS and/or slack to help automate and ease communication within the team
