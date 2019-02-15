@@ -47,7 +47,9 @@ php artisan key:generate
 php artisan migrate:fresh
 php artisan serve
 ```
-
+### Running the API
+1. To run the API, Postman should be downloaded at: https://www.getpostman.com/products 
+2. To then learn how to use the note functions, please refer to the examples below 
 ## API
 
 ### database
@@ -73,7 +75,7 @@ A brief description
 
 ## Examples
 
-The following url should be used for note functions (displayed below) except the archive function:
+The following url should be used (in Postman) for note functions (displayed below) except the archive function:
 http://localhost:8000/api/
 
 ```
